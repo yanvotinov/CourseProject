@@ -1,0 +1,180 @@
+!SESSION 2024-11-06 15:01:43.777 -----------------------------------------------
+eclipse.buildId=2023.3.6.33
+java.version=11.0.20
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\1c\1cedtstart\projects\Dev2
+
+!ENTRY com.company1c.link.ide.edt 1 0 2024-11-06 15:02:04.033
+!MESSAGE iLOG: 1C:Link addon is initializing. Web config state is in C:\1c\1cedtstart\projects\Dev2\.metadata\.plugins\com.company1c.link.ide.edt
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 15:02:12.066
+!MESSAGE java.vm.name=OpenJDK 64-Bit Server VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 15:02:12.180
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2024-11-06 15:02:13.698
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-11-06 15:02:22.849
+!MESSAGE An extension already exists with id "org.eclipse.wst.server.ui.ServersView.content.root".
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2024-11-06 15:02:32.142
+!MESSAGE Required filter org.eclipse.ui.navigator.resources.filters.workingSet is not present. Working set support will not function correctly.
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2024-11-06 15:02:32.143
+!MESSAGE 
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 15:08:12.699
+!MESSAGE Project context is being started: 1С_Экзаменатор_демо (CLEAN_IMPORT)
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:08:15.899
+!MESSAGE Starting phase LINKING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:08:15.900
+!MESSAGE Starting phase INITIALIZATION of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:08:16.989
+!MESSAGE Starting phase CHECKING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:08:17.005
+!MESSAGE Starting phase STORAGE_INITIALIZATION of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:08:17.789
+!MESSAGE Starting phase RESOURCE_LOADING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 15:09:31.068
+!MESSAGE Starting phase POST_RESOURCE_LOADING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 15:09:31.590
+!MESSAGE Project context is started: 1С_Экзаменатор_демо
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-11-06 15:40:33.719
+!MESSAGE Invalid remote: origin
+!STACK 1
+org.eclipse.core.runtime.CoreException: Invalid remote: origin
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:114)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.performJob(FetchOperationUI.java:137)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:221)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:134)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:111)
+	... 3 more
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: C:\1c\git\git_CourseProject\Team_remote: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:100)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:74)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:521)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:397)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:276)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:244)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:205)
+	... 5 more
+!SUBENTRY 1 org.eclipse.egit.ui 4 0 2024-11-06 15:40:33.721
+!MESSAGE Invalid remote: origin
+!STACK 0
+org.eclipse.jgit.api.errors.InvalidRemoteException: Invalid remote: origin
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:221)
+	at org.eclipse.egit.core.op.FetchOperation.run(FetchOperation.java:134)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI.execute(FetchOperationUI.java:111)
+	at org.eclipse.egit.ui.internal.fetch.FetchOperationUI$1.performJob(FetchOperationUI.java:137)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: C:\1c\git\git_CourseProject\Team_remote: not found.
+	at org.eclipse.jgit.transport.TransportLocal$1.open(TransportLocal.java:100)
+	at org.eclipse.jgit.transport.TransportBundleFile$1.open(TransportBundleFile.java:74)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:521)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:397)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:276)
+	at org.eclipse.jgit.transport.Transport.open(Transport.java:244)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:205)
+	... 5 more
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2024-11-06 16:03:01.672
+!MESSAGE EDT закрывается
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2024-11-06 16:03:01.675
+!MESSAGE Существующий проект (на закрытии): 1С_Экзаменатор_демо, открыт: true
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2024-11-06 16:03:02.647
+!MESSAGE Saving dialog settings
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:03:02.967
+!MESSAGE Project context is being stopped: 1С_Экзаменатор_демо (IDE_SHUTDOWN)
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:03:03.161
+!MESSAGE Project context is stopped: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2024-11-06 16:03:05.542
+!MESSAGE All known SSH connectons released
+!SESSION 2024-11-06 16:03:08.494 -----------------------------------------------
+eclipse.buildId=2023.3.6.33
+java.version=11.0.20
+java.vendor=BellSoft
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/1c/1cedtstart/projects/Dev2/
+
+!ENTRY com.company1c.link.ide.edt 1 0 2024-11-06 16:03:20.774
+!MESSAGE iLOG: 1C:Link addon is initializing. Web config state is in C:\1c\1cedtstart\projects\Dev2\.metadata\.plugins\com.company1c.link.ide.edt
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:03:26.321
+!MESSAGE java.vm.name=OpenJDK 64-Bit Server VM
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:03:26.402
+!MESSAGE java.vm.info=mixed mode
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2024-11-06 16:03:27.012
+!MESSAGE Trying to re-establish all non-closed SSH connecton...
+
+!ENTRY org.eclipse.ui.navigator 4 0 2024-11-06 16:03:34.117
+!MESSAGE An extension already exists with id "org.eclipse.wst.server.ui.ServersView.content.root".
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2024-11-06 16:03:41.608
+!MESSAGE Required filter org.eclipse.ui.navigator.resources.filters.workingSet is not present. Working set support will not function correctly.
+
+!ENTRY org.eclipse.ui.navigator.resources 4 0 2024-11-06 16:03:41.609
+!MESSAGE 
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:03:42.683
+!MESSAGE Project context is being started: 1С_Экзаменатор_демо (EXISTING_DATA_IMPORT)
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:03:53.297
+!MESSAGE Starting phase LINKING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:03:53.297
+!MESSAGE Starting phase INITIALIZATION of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:03:54.163
+!MESSAGE Starting phase CHECKING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:03:54.182
+!MESSAGE Starting phase STORAGE_INITIALIZATION of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:03:57.226
+!MESSAGE Starting phase RESOURCE_LOADING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.lifecycle 1 0 2024-11-06 16:04:03.930
+!MESSAGE Starting phase POST_RESOURCE_LOADING of context ProjectContext: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:04:04.281
+!MESSAGE Project context is started: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2024-11-06 16:20:13.480
+!MESSAGE EDT закрывается
+
+!ENTRY com._1c.g5.v8.dt.ui 1 0 2024-11-06 16:20:13.481
+!MESSAGE Существующий проект (на закрытии): 1С_Экзаменатор_демо, открыт: true
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 1 0 2024-11-06 16:20:14.424
+!MESSAGE Saving dialog settings
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:20:14.759
+!MESSAGE Project context is being stopped: 1С_Экзаменатор_демо (IDE_SHUTDOWN)
+
+!ENTRY com._1c.g5.v8.dt.core 1 0 2024-11-06 16:20:14.928
+!MESSAGE Project context is stopped: 1С_Экзаменатор_демо
+
+!ENTRY com._1c.g5.v8.dt.platform.services.core 1 0 2024-11-06 16:20:15.532
+!MESSAGE All known SSH connectons released
