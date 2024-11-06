@@ -1,0 +1,3 @@
+
+git_CourseProject/1С_Экзаменатор_демо/src/Configuration/ParentConfigurations/
+git_CourseProject/1С_Экзаменатор_демо/src/Configuration/ParentConfigurations.bin
